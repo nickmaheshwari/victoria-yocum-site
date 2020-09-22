@@ -29,7 +29,7 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'Montserrat', sans-serif;
+      font: 78px/1.1em 'Montserrat Light', sans-serif;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
@@ -191,7 +191,7 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 68px/1.1em 'Montserrat', sans-serif; }
+   header .banner-text h1 { font: 68px/1.1em 'Montserrat Light', sans-serif; }
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
       width: 85%;
@@ -220,6 +220,7 @@
       width: 100%;
       text-align: center;
       padding: 15px 20px;
+      left: 0%;
    }
    #about .main-col { padding-right: 30px; }
 
@@ -312,6 +313,7 @@
    #message-warning, #message-success {
       width: 100%;
       margin-left: 0;
+      left: 40%;
    }
 
 
