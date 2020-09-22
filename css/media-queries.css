@@ -29,11 +29,11 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'opensans-bold', sans-serif;
+      font: 78px/1.1em 'Montserrat', sans-serif;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
+      font: 17px/1.9em 'Montserrat Light', serif;
       width: 80%;
    }
    header .banner-text hr {
@@ -42,7 +42,7 @@
    }
    /* nav-wrap */
    #nav-wrap {
-      font: 11px 'opensans-bold', sans-serif;
+      font: 11px 'Montserrat', sans-serif;
       letter-spacing: 1.5px;
    }
 
@@ -112,7 +112,7 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+		background-color: #11ABB0;
 		position: relative;
       border: none;
       float: right;
@@ -191,7 +191,7 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h1 { font: 68px/1.1em 'Montserrat', sans-serif; }
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
       width: 85%;
@@ -287,7 +287,7 @@
    #contact { padding-bottom: 66px; }
    #contact .section-head { margin-bottom: 12px; }
    #contact .section-head h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;            
+      font: 16px/24px 'Montserrat', sans-serif;            
       text-align: center;   
       margin-bottom: 30px;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -351,11 +351,11 @@
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
    header .banner-text h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;      
+      font: 40px/1.1em 'Montserrat', sans-serif;      
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      font: 14px/1.9em 'Montserrat', sans-serif;
       width: 90%;
    }
   
