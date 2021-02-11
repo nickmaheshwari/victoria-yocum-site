@@ -29,6 +29,9 @@ e. Others
 @import url("fonts.css");
 @import url("fontello/css/fontello.css");
 @import url("font-awesome/css/font-awesome.min.css");
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+</style>
 
 /* ------------------------------------------------------------------
 /* b. Reset
