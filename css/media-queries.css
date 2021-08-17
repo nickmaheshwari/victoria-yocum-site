@@ -14,7 +14,7 @@
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
-   
+
 
 }
 
@@ -218,7 +218,6 @@
    #about .profile-pic {
       width: 50%;
       height: 50%;
-      margin-left: 24%;
    }
    #about .download .button {
       width: 100%;
