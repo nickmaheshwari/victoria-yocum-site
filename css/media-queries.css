@@ -14,6 +14,7 @@
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
+   
 
 }
 
@@ -46,8 +47,8 @@
    /* About Section
    ------------------------------------------------------------------- */
    #about .profile-pic {
-      width: 114px;
-      height: 114px;
+      width: 50%;
+      height: 50%;
       margin-left: 12px;
    }
    #about .contact-details { width: 50%; }
@@ -84,7 +85,10 @@
       line-height: 66px;
    }
    #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
-
+   #contact button.submit { 
+      margin: 30px 0 24px 0;
+      margin-left: 26%; 
+   }
 
 }
 
@@ -108,7 +112,7 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #11ABB0;
+		background-color: #800000;
 		position: relative;
       border: none;
       float: right;
@@ -211,7 +215,11 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about .profile-pic {
+      width: 50%;
+      height: 50%;
+      margin-left: 24%;
+   }
    #about .download .button {
       width: 100%;
       text-align: center;
@@ -305,7 +313,9 @@
      	margin-bottom: 6px;    	
       width: 100%;
    }
-   #contact button.submit { margin: 30px 0 24px 0; }
+   #contact button.submit { 
+      margin: 30px 0 24px 0;
+      margin-left: 0px; }
    #message-warning, #message-success {
       width: 100%;
       margin-left: 0;

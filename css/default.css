@@ -291,7 +291,7 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #11ABB0;
+   color: #B22222;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
@@ -352,7 +352,7 @@ li p { }
    color: #313131;
 }
 .stats-tabs li a:hover {
-   color:#11ABB0;
+   color:#B22222;
 }
 .stats-tabs li a b {
 	display: block;
@@ -364,7 +364,7 @@ li p { }
 
 /* definition list */
 dl { margin: 12px 0; }
-dt { margin: 0; color:#11ABB0; }
+dt { margin: 0; color:#B22222; }
 dd { margin: 0 0 0 20px; }
 
 /* Lining Definition Style Markup */
@@ -439,7 +439,7 @@ dd { margin: 0 0 0 20px; }
 }
 .pagination .current,
 .pagination .current:hover {
-   background-color: #11ABB0;
+   background-color: #B22222;
    color: #fff;
 }
 .pagination .inactive,
@@ -468,7 +468,7 @@ input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'Montserrat', sans-serif;
    text-transform: uppercase;
-   background: #11ABB0;
+   background: #800000;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
@@ -480,7 +480,7 @@ input[type="button"] {
    height: auto;
    justify-content: center;
    position: relative;
-   left: 50%;
+   margin-left: 26%;
 
    -webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
@@ -533,8 +533,14 @@ input::-moz-focus-inner {
 
 /*  7. Forms  --------------------------------------------------------- */
 
-form { margin-bottom: 24px; }
-fieldset { margin-bottom: 24px; }
+form { 
+   margin-bottom: 24px; 
+
+}
+fieldset { 
+   margin-bottom: 24px; 
+   border: none;
+}
 
 input[type="text"],
 input[type="password"],
