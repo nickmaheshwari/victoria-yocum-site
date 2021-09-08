@@ -283,6 +283,23 @@
             <!-- portfolio-wrapper -->
             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/blockchain.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Simple Blockchain</h5>
+                              <p>UChicago Project</p>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div> <!-- item end -->
+
           	   <div class="columns portfolio-item">
                   <div class="item-wrap">
 
@@ -472,7 +489,7 @@
 		      </div>
 
             <div class="link-box">
-               <a href="https://asherchaim.com/">Read More</a>
+               <a href="https://asherchaim.com/">Visit the site</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
@@ -480,16 +497,17 @@
 
          <div id="modal-04" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-blockchain.jpg" alt="" />
 
 		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+			      <h4>Simple Blockchain Project</h4>
+			      <p>This project models a simple (non-distributed) blockchain, with auto-generated transactions set to a fixed amount. Within the program, Merkle Trees are contrustructed from these transactions by a mining node. The mining node attempts to find a nonce that can be appended to the Merkle Root of the tree and SHA-256 hashed to be less than a set difficulty level 
+               (itentionally set low since this project is just for demostration). When found, a block is created and added to the blockchain with the transactions used to generate the Merkle Tree, with the Merkle Root of the tree being used as the block identifier (stored within the block's header). The Merkle Root of the previous block is also stored in the block's header as a reference, allowing for quick and simple validataion of the entire chain. The next steps to this project would be the distribution of the mining node code (likely via docker) as well as a registration node, and the introduction of a wallet application for non-mining nodes to create transactions. This project was created for Introduction to Blockchain at University of Chicago.</p>
+               <!--<span class="categories"><i class="fa fa-tag"></i>Photography</span> -->
 		      </div>
 
             <div class="link-box">
-               <a href="https://www.behance.net">Read More</a>
+               <a href="https://github.com/nickmaheshwari/simple_blockchain">See the code</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
