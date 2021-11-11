@@ -649,7 +649,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/test-bg.jpg) no-repeat center center;
+   background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/balloons.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
